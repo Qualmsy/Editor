@@ -1,0 +1,28 @@
+<head>
+  <title>lampshade</title>
+</head>
+<template name="Layout">
+<div id="wrapper">
+<header id="header">
+	<h1>Welcome to <a href="/" class="logo">Lampshade</a>!</h1>
+	<span id="login">
+	<a href="{{userFacebookLink}}" target="_blank">
+		<img src="{{userPicHelper}}" alt="" class="avatar"/>
+	</a>
+	{{> loginButtons}}
+	<a class="btn btn-default glyphicon glyphicon-cog" href="/settings"></a>
+	</span>
+</header>
+<br/>
+</div>
+{{> yield}}
+
+</template>
+
+<template name="Login">
+	<div>Please log-in using
+	 <span class="facebook">
+	 <i class="fa fa-facebook"></i>acebook</span>.
+	</div>
+</template>
+

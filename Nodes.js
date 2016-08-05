@@ -1,0 +1,2 @@
+nodeHelpers = {};
+nodeHelpers.types = {};

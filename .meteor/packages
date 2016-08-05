@@ -1,0 +1,61 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+session                 # Client-side reactive dictionary for your app
+jquery                  # Helpful client-side library
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifiers      # JS/CSS minifiers run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+autopublish             # Publish all data to the clients (for prototyping)
+insecure                # Allow all DB writes from clients (for prototyping)
+
+manuel:viewmodel
+jagi:astronomy
+peerlibrary:blaze-components
+aldeed:collection2
+underscore
+dburles:collection-helpers
+matb33:collection-hooks
+ongoworks:security
+aldeed:template-extension
+aldeed:autoform
+aldeed:tabular
+meteortoys:allthings
+lbee:moment-helpers
+natestrauser:select2
+mrt:smart-publish
+iron:router
+okgrow:router-autoscroll
+peerlibrary:computed-field
+d3js:d3
+alanning:roles
+accounts-ui
+semantic:ui
+rajit:bootstrap3-datepicker
+aldeed:autoform-bs-datetimepicker
+twbs:bootstrap
+tsega:bootstrap3-datetimepicker@=3.1.3_3
+mrt:moment-timezone
+yogiben:autoform-map
+
+momentjs:moment
+reactive-var
+accounts-github
+mizzao:autocomplete
+fourseven:scss
+jss:jstree-dark-theme
+jss:jstree
+yogiben:autoform-modals
+sergeyt:typeahead
+mrt:cheerio
+perak:codemirror

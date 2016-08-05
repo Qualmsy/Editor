@@ -1,0 +1,61 @@
+<template name="Attributes">
+<!--
+ {{#with currentComponent}}
+
+
+  <div>
+  {{#if isCoding}}
+  <button class="btn btn-primary saveButton">Save code</button>
+  {{else}}
+  <button class="btn btn-success writeButton">Write code</button>
+  {{/if}}
+  </div>
+  <hr/>
+
+  <h3 class="ProjectHTMLTitle {{#if isNodeSelected}}btn btn-primary{{/if}}">
+ 	{{name}}
+  </h3>
+  {{#unless isCoding}}
+  {{> Tree}}
+  {{/unless}}
+  {{#if isCoding}}
+    <textarea rows=20 class="ProjectHTMLCode" value={{HTML}}></textarea>
+  {{else}}
+    <fieldset>
+
+      <legend>
+        {{#if isNodeSelected}}
+        innerHTML
+        {{else}}
+        HTML
+        {{/if}}
+      </legend>
+    {{#if isNodeSelected}}
+      {{innerHTML}}
+    {{else}}
+     {{#each split HTML}}
+      {{#if line}}
+      <div>
+      	{{line}}
+      </div>
+      {{/if}}
+      {{#each button}}
+       <a class="btn btn-primary" href="/component/{{templateId}}">
+    	 {{templateName}}
+       </a>
+      {{/each}}
+     {{else}}
+     <div>
+    	No code to show
+     </div>
+     {{/each}}
+    {{/if}}
+    </fieldset>
+  {{/if}}
+
+ {{/with}}
+
+-->
+
+
+</template>

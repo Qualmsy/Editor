@@ -1,0 +1,18 @@
+<template name="Component">
+<p>
+ <div class="btn-group" role="group" aria-label="Component Button">
+  <a href="/component/{{_id}}" class="btn viewComponent {{#if IsNotCurrentComponent _id}}btn-success{{else}}btn-primary{{/if}}">
+   {{name}}
+  </a>
+  {{#if IsNotCurrentComponent _id}}
+  <button class="btn btn-primary insertComponent">
+  	<span class="glyphicon glyphicon-arrow-right">
+  	</span>
+  </button>
+  {{/if}}
+ </div>
+</p>
+</template>
+
+
+

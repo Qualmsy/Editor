@@ -1,0 +1,175 @@
+body {
+	background: black;
+	color: white;
+}
+div {
+	position: relative;
+}
+h1 {
+	display: inline-block;
+}
+
+.form-control {
+	background: black;
+	color: white;
+
+}
+.currentArrow {
+	text-shadow: 0px 0px 5px white;
+	font-size: 1.5em;
+}
+.margintop {
+	margin-top: 10px;
+}
+.ProjectHTMLCode {
+	width: 100%;
+	max-width: 100%;
+	font-size: 1em;
+	
+}
+
+#ProjectTreeNewNode {
+	background: black;
+	color: white;
+	font-size: 1.3em;
+	width: 150px;
+}
+#ProjectTreeNewNodeButton {
+	margin-top: 15px;
+}
+#Create {
+	margin: 10px auto;
+	width: 30%;
+	min-width: 300px;
+	max-width: 600px;
+	color: white;
+	font-size: 1.2em;
+}
+#buttonNewComponent {
+	float: right;
+}
+textarea {
+	background: black;
+	color: white;
+	font-size: 1.4em;
+}
+#offersTable th {
+	font-size: 1.4em;
+	text-align: center;
+	
+}
+#offersTable td {
+	margin: 0;
+	padding: 5px 10px;
+	border: 1px solid #333;
+	max-width: 250px;
+}
+.marginLeft {
+	margin-left: 50px;
+}
+
+#offersTable {
+	margin-top: 10px;
+}
+.centered {
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: top;
+}
+.margin {
+	margin: 10px
+}
+.datetimepicker {
+	min-width: 200px;
+}
+.spaced {
+	margin-bottom: 15px;
+	padding: 5px;
+	display: block;
+}
+.boxBlock { 
+	border: 2px solid green;
+	padding: 5px;
+	margin: 5px;
+
+}
+.ActiveComponent {
+	color: #4F9;
+	text-shadow: 0px 0px 3px #4F9;
+}
+.viewProjectButton {
+	margin-top: 10px;
+}
+.boxBlockName {
+  padding-left: 10px;
+  border: 1px solid green;
+  color: white;
+  font-size: 1.1em;
+  width: 150px;
+}
+.logo {
+	color: #009F39;
+	text-shadow: 1px 1px 5px #000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.facebook {
+	color: #55F;
+	font-size: 1.4em;
+}
+.card {
+	border: 1px solid green;
+	height: 200px;
+	width: 350px;
+	padding: 10px;
+	margin: 10px;
+}
+.addnews {
+	background: #271;
+	padding: 5px 10px;
+	margin: 15px 30px;
+	font-size: 1.5em;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#login {
+	float: right;
+	line-height: 1em;
+	margin: 15px;
+	font-size: 1.3em;
+}
+.avatar {
+	margin: 0px 10px;
+}
+.OfferRow:hover {
+	background: #24BF59;
+	cursor: pointer;
+}
+
+td.noBorder {
+	border: none !important;
+}
+h2 {
+	text-align: center;
+	color: #4A7;
+}
+.maxWidth200 {
+	max-width: 200px;
+}
+.filterinput {
+	padding: 5px;
+}
+/*
+* {
+	background: black;
+	color: white;
+}
+a > span:hover {
+	background: #888;
+	color: #000;
+}
+td:hover {
+	color: #000;
+}
+td > span:hover {
+	color: #000;
+}*/

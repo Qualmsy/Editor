@@ -1,0 +1,31 @@
+<template name="Landing">
+ <div id="ProjectsList">
+  <a class="btn btn-success" href="/component">
+    Start making components
+  </a>
+  Or
+  <a class="btn btn-success" href="/create">
+  	Create a new project
+  </a>
+  <table id="ProjectsListTable">
+   <tr>
+  	<th>Name</th>
+  	<th>Description</th>
+    <th></th>
+   </tr>
+  {{#each Project}}
+   <tr>
+   	<td>{{name}}</td>
+   	<td>{{description}}</td>
+   	<td>
+   	 <a href="/view/{{_id}}" class="btn btn-success viewProjectButton">
+   	 	View Project
+   	 </a>
+   	</td>
+   </tr>
+  {{else}}
+   <h2>There is no project to show</h2>
+  {{/each}}
+  </table>
+ </div>
+</template>

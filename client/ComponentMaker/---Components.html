@@ -1,0 +1,23 @@
+<template name="Components">
+	<input id="createName" class="form-control" placeholder="New component..." type="text"/>
+
+ 	<hr/>
+ 	<p>Your Components: </p>
+ 	<!--
+ 	<button class="btn viewBody {{#if IsCurrentComponent body}}btn-primary{{else}}btn-success{{/if}}">
+ 		Body
+ 	</button>
+ -->
+ 	 <div id="ProjectComponentsList">
+ 	 {{#each OwnedComponents}}
+ 	   {{> Component }}
+	 {{/each}}
+ 	</div>
+ 	<!--
+ 	<hr/>
+ 	<p>Other Components: </p>
+  	{{#each UnownedComponents }}
+	  {{> Component }}
+ 	{{/each}}
+ 	-->
+ </template>

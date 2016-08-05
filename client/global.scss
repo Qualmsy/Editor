@@ -1,0 +1,150 @@
+$leftBarWidth: 250px;
+$headerHeight: 100px;
+$blocksHeight: 450px;
+$blocksWidth: 400px;
+$styleWidth: 300px;
+$color1: #faf3e6;
+$color2: #5C331A;
+$color3: #aa8;
+$color4: #000;
+$color5: #fff;
+
+fieldset {
+	border: 1px solid #CCC;
+	padding: 20px;
+}
+
+fieldset legend {
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	border: none;
+	color: #CCC;
+}
+
+fieldset:before {
+
+}
+
+
+
+#wrapper {
+	max-width: 1300px;
+	min-width: 900px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0px 25px;
+	background: #BBB;
+}
+#ProjectComponents {
+	position: absolute;
+	left: 0px;
+	width: $leftBarWidth;
+	border: 1px solid red;
+	bottom: 0px;
+	top: $headerHeight;
+	padding: 25px;
+	overflow: scroll;
+	color: white;
+}
+#ProjectComponentsList {
+	margin-top: 10px;
+}
+#ProjectComponentsFormSubmit {
+	
+}
+#ComponentsNewComponentName {
+	display: inline;
+	width: 75%;
+	margin-left: 15px;
+}
+#ProjectHTML {
+	position: absolute;
+	left: $leftBarWidth;
+	width: $blocksWidth;
+	border: 1px solid red;
+	bottom: 0px;
+	top: $headerHeight;
+	padding: 25px;
+	overflow: scroll;
+}
+#ProjectHTMLComponentName {
+	font-size: 1.5em;
+}
+#ProjectHTMLButtons {
+	color: white;
+	padding-bottom: 10px;
+	float: right;
+}
+.ProjectHTMLTitle {
+	margin: 0px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+}
+.activeTitle {
+	
+}
+.nonActiveTitle {
+	font-weight: bold;
+	color: #88F;
+	text-shadow: 0px 0px 3px #338;
+}
+#ProjectHTMLTree {
+	width: 100%;
+}
+#ProjectHTMLCode {
+	height: 250px;
+	width: 100%;
+}
+#ProjectStyle {
+	position: absolute;
+	left: $leftBarWidth + $blocksWidth;
+	width: $styleWidth;
+	bottom: 0px;
+	border: 1px solid red;
+	min-height: 200px;
+	top: $headerHeight;
+	padding: 25px;
+	overflow: scroll;
+}
+#ProjectStyleCode {
+}
+#ProjectFunctions {
+	position: absolute;
+	left: $blocksWidth + $leftBarWidth + $styleWidth;
+	right: 5px;
+	bottom: 0px;
+	border: 1px solid red;
+	top: $headerHeight;
+	padding: 25px;
+	overflow: scroll;
+}
+#ProjectHelpers {
+	position: absolute;
+	left: $blocksWidth + $leftBarWidth;
+	bottom: 0px;
+	right: 0px;
+	min-width: 500px;
+	border: 1px solid red;
+	min-height: 200px;
+	top: $headerHeight + $blocksHeight;
+	padding: 25px;
+	overflow: scroll;
+}
+#ProjectsList {
+	margin: 10px auto;
+	width: 70%;
+	min-width: 800px;
+	max-width: 1200px;
+}
+#ProjectsListTable {
+	color: white;
+	font-size: 1.4em;
+	width: 100%;
+	margin: 10px;
+}

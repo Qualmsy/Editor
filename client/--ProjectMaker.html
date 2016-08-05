@@ -1,0 +1,13 @@
+<template name="ProjectMaker">
+ <div id="Create">
+  {{#autoForm id="ProjectRegistrationForm" collection="Projects" type="insert"}}
+   {{> afQuickField name="name" }}
+   {{> afQuickField name="description" }}
+   <div>
+    <button id="CreateSubmitButton" type="submit" class="btn btn-success">Register</button>
+    <button type="reset" class="btn btn-warning">Reset</button>
+    <a href="/" class="btn btn-danger">Cancel</a>
+   </div>
+  {{/autoForm}}
+ </div>
+</template>
